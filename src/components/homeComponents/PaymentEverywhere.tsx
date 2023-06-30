@@ -1,9 +1,57 @@
-import React from 'react'
+import Image from "next/image";
+import React from "react";
 
 const PaymentEverywhere = () => {
   return (
-    <div>PaymentEverywhere</div>
-  )
-}
+    <section className="grid grid-cols-1 justify-items-center gap-8 w-full max-w-7xl p-12 relative mt-24 sm:grid-cols-2">
+      <div className="order-1 sm:-order-1">
+        <Image
+          width={500}
+          height={500}
+          src={"/world-wide.svg"}
+          alt="bill card"
+        />
+      </div>
+      <div className="flex flex-col gap-6 justify-around items-start">
+        <h2 className="text-gray-700 text-4xl font-medium xl:text-5xl">
+          Gaste seu dinheiro em qualquer lugar, pague a qualquer um sem esforço
+        </h2>
+        <p className="text-gray-700">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
+          velit quidem, labore earum voluptatum consequatur, maxime delectus,
+          sit maiores eveniet eius fuga vero distinctio aliquam sapiente.
+          Accusantium, ratione culpa!
+        </p>
+        <button
+          type="button"
+          className="text-white w-fit bg-blue-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        >
+          Obtenha seu cartão
+          <svg
+            aria-hidden="true"
+            className="w-5 h-5 ml-2 -mr-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <aside className="flex flex-row justify-between">
+          <Image width={30} height={30} src={"/avatar.svg"} alt="avatar" />
+          <p className="text-gray-700 font-light text-sm pl-2">
+            "Nós conhecemos muito bem o mercado de cartões e este produto
+            oferece a velocidade, modelo de conta flexível e abordagem API-first
+            que mais ninguém pode oferecer."
+          </p>
+        </aside>
+      </div>
+    </section>
+  );
+};
 
-export default PaymentEverywhere
+export default PaymentEverywhere;
