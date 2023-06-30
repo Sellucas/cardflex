@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-blue-500 w-full min-h-2/3 sm:py-32 lg:py-48 sm:flex-row">
+    <section className="flex flex-col justify-center items-center bg-blue-500 w-full sm:py-32 lg:py-48 sm:flex-row">
       <div className="flex flex-col items-center w-full text-center px-4 max-w-lg sm:text-left xl:px-0">
         <div>
           <h1 className="text-4xl font-bold text-white leading-none mb-6 xl:text-5xl">
@@ -18,7 +18,7 @@ const HeroSection = () => {
           <div className="sm:mr-4">
             <button
               type="button"
-              className="text-white bg-blue-950 hover:bg-blue-800 focus:ring-4 w-fit focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
+              className="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 w-fit focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center"
             >
               Obtenha seu cartão
               <svg
