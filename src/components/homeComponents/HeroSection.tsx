@@ -3,8 +3,8 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-blue-500 w-full sm:py-32 lg:py-48 sm:flex-row">
-      <div className="flex flex-col items-center w-full text-center px-4 max-w-lg sm:text-left xl:px-0">
+    <section className="grid grid-cols-1 justify-items-center bg-blue-500 w-full lg:px-60 sm:py-32 sm:grid-cols-2">
+      <div className="flex flex-col items-center w-full text-center px-4 max-w-md sm:text-left xl:px-0">
         <div>
           <h1 className="text-4xl font-bold text-white leading-none mb-6 xl:text-5xl">
             Cartões <br /> físicos e virtuais personalizados para a sua empresa
@@ -46,8 +46,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="relative flex w-full h-96 max-w-xl">
-        <Image fill src="/hero.svg" alt="CardFlex" />
+      <div className="relative flex w-full">
+        <Image width={600} height={1} src="/hero.svg" alt="CardFlex" />
       </div>
     </section>
   );

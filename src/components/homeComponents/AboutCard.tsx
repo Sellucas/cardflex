@@ -34,7 +34,7 @@ const AboutCard = () => {
         <div className="max-w-sm flex flex-col justify-around h-48 border-r-2 border-transparent lg:border-gray-300">
           <Image width={50} height={50} src={"/buycard.svg"} alt="buy card" />
           <h2 className="text-xl text-gray-800 font-bold">
-            Criar cartões personalizados
+            Recompensas Cashback
           </h2>
           <p className="text-gray-500 font-light">
             Crie cartões que operem de acordo com suas configurações,
@@ -51,7 +51,7 @@ const AboutCard = () => {
             alt="discount card"
           />
           <h2 className="text-xl text-gray-800 font-bold">
-            Criar cartões personalizados
+            Programa de Cartão Flexível
           </h2>
           <p className="text-gray-500 font-light">
             Crie cartões que operem de acordo com suas configurações,

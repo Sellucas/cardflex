@@ -4,7 +4,7 @@ import React from "react";
 const CardSolutions = () => {
   return (
     <section className="flex flex-col justify-center items-center w-full relative mt-24">
-      <div className="grid grid-cols-1 gap-6 bg-blue-900 w-full max-w-7xl min-h-fit rounded-tr-3xl md:rounded-tr-full p-12 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 w-full max-w-7xl min-h-fit rounded-tr-3xl md:rounded-tr-full p-12 sm:grid-cols-2">
         <div className="flex flex-col gap-6 justify-around items-start">
           <h2 className="text-white text-4xl font-bold xl:text-5xl">
             Crie um programa de cartão flexível para as necessidades da sua

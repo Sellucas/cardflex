@@ -25,7 +25,7 @@ const onlineStores = [
 
 const CashbackRewards = () => {
   return (
-    <section className="grid grid-cols-1 justify-items-center gap-8 w-full max-w-7xl p-12 relative mt-24 sm:grid-cols-2">
+    <section className="grid grid-cols-1 justify-items-center gap-8 w-full max-w-7xl p-12 relative mt-24 md:grid-cols-2">
       <div className="flex flex-col gap-6 justify-around items-start">
         <h2 className="text-gray-800 text-4xl font-medium xl:text-5xl">
           Receba recompensas de cashback em suas marcas favoritas
@@ -96,7 +96,7 @@ const CashbackRewards = () => {
           </button>
         </div>
       </div>
-      <div className="mt-32">
+      <div className="mt-16 md:mt-32">
         <Image width={400} height={1} src={"/cashback.png"} alt="cash back" />
       </div>
     </section>
