@@ -13,10 +13,10 @@ const PaymentEverywhere = () => {
         />
       </div>
       <div className="flex flex-col gap-6 justify-around items-start">
-        <h2 className="text-gray-700 text-4xl font-medium xl:text-5xl">
+        <h2 className="text-gray-800 text-4xl font-medium xl:text-5xl">
           Gaste seu dinheiro em qualquer lugar, pague a qualquer um sem esforço
         </h2>
-        <p className="text-gray-700">
+        <p className="text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro
           velit quidem, labore earum voluptatum consequatur, maxime delectus,
           sit maiores eveniet eius fuga vero distinctio aliquam sapiente.
@@ -35,15 +35,15 @@ const PaymentEverywhere = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
         </button>
         <aside className="flex flex-row justify-between">
-          <Image width={30} height={30} src={"/avatar.svg"} alt="avatar" />
-          <p className="text-gray-700 font-light text-sm pl-2">
+          <Image width={35} height={35} src={"/avatar.svg"} alt="avatar" />
+          <p className="text-gray-500 font-light pl-2">
             "Nós conhecemos muito bem o mercado de cartões e este produto
             oferece a velocidade, modelo de conta flexível e abordagem API-first
             que mais ninguém pode oferecer."

@@ -21,10 +21,10 @@ const AboutCard = () => {
       <div className="grid grid-cols-1 gap-4 mt-8 px-4 lg:grid-cols-3">
         <div className="max-w-sm flex flex-col justify-around h-48 border-r-2 border-transparent lg:border-gray-300">
           <Image width={50} height={50} src={"/cards.svg"} alt="cards" />
-          <h2 className="text-xl text-gray-700 font-bold">
+          <h2 className="text-xl text-gray-800 font-bold">
             Criar cartões personalizados
           </h2>
-          <p className="text-gray-700 font-light">
+          <p className="text-gray-500 font-light">
             Crie cartões que operem de acordo com suas configurações,
             proporcionando tomada de decisões em tempo real sobre cobranças e
             despesas.
@@ -33,10 +33,10 @@ const AboutCard = () => {
 
         <div className="max-w-sm flex flex-col justify-around h-48 border-r-2 border-transparent lg:border-gray-300">
           <Image width={50} height={50} src={"/buycard.svg"} alt="buy card" />
-          <h2 className="text-xl text-gray-700 font-bold">
+          <h2 className="text-xl text-gray-800 font-bold">
             Criar cartões personalizados
           </h2>
-          <p className="text-gray-700 font-light">
+          <p className="text-gray-500 font-light">
             Crie cartões que operem de acordo com suas configurações,
             proporcionando tomada de decisões em tempo real sobre cobranças e
             despesas.
@@ -50,10 +50,10 @@ const AboutCard = () => {
             src={"/discountcard.svg"}
             alt="discount card"
           />
-          <h2 className="text-xl text-gray-700 font-bold">
+          <h2 className="text-xl text-gray-800 font-bold">
             Criar cartões personalizados
           </h2>
-          <p className="text-gray-700 font-light">
+          <p className="text-gray-500 font-light">
             Crie cartões que operem de acordo com suas configurações,
             proporcionando tomada de decisões em tempo real sobre cobranças e
             despesas.

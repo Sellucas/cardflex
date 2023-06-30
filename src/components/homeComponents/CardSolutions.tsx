@@ -29,15 +29,15 @@ const CardSolutions = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
           <aside className="flex flex-row justify-between">
-            <Image width={30} height={30} src={"/avatar.svg"} alt="avatar" />
-            <p className="text-gray-300 font-light text-sm pl-2">
+            <Image width={35} height={35} src={"/avatar.svg"} alt="avatar" />
+            <p className="text-gray-300 font-light pl-2">
               "Nós conhecemos muito bem o mercado de cartões e este produto
               oferece a velocidade, modelo de conta flexível e abordagem
               API-first que mais ninguém pode oferecer."
