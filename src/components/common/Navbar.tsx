@@ -70,7 +70,7 @@ const Navbar = () => {
                   href="#pablo"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Share</span>
+                  <span className="ml-2">Sobre</span>
                 </a>
               </li>
               <li className="nav-item">
@@ -79,7 +79,7 @@ const Navbar = () => {
                   href="#pablo"
                 >
                   <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Tweet</span>
+                  <span className="ml-2">Planos</span>
                 </a>
               </li>
               <li className="nav-item">
@@ -88,7 +88,7 @@ const Navbar = () => {
                   href="#pablo"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
-                  <span className="ml-2">Pin</span>
+                  <span className="ml-2">FAQ</span>
                 </a>
               </li>
             </ul>
