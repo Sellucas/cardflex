@@ -46,8 +46,14 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="relative flex w-full">
-        <Image width={600} height={1} src="/hero.svg" alt="CardFlex" />
+      <div className="relative flex justify-center items-center w-full">
+        <Image
+          width={500}
+          height={1}
+          src="/hero.svg"
+          alt="CardFlex"
+          className="xl:scale-150"
+        />
       </div>
     </section>
   );

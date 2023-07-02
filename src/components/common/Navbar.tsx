@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="flex align-middle text-sm font-bold leading-relaxed mr-4 py-2 whitespace-nowrap text-white"
-              href="#pablo"
+              href="/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="/"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Sobre</span>
@@ -76,7 +76,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="/"
                 >
                   <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Planos</span>
@@ -85,7 +85,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="/"
                 >
                   <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">FAQ</span>
