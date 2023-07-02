@@ -12,7 +12,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +128,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -158,7 +158,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +190,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +218,7 @@ const Faq = () => {
             <div className="mb-10">
               <h3 className="flex items-center mb-4 text-lg font-medium text-gray-800">
                 <svg
-                  className="flex-shrink-0 mr-2 w-5 h-5 text-gray-800"
+                  className="flex-shrink-0 mr-2 w-5 h-5 text-blue-900"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
