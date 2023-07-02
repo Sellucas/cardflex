@@ -14,7 +14,7 @@ const Pricing = () => {
     <section className="flex flex-col justify-center items-center w-full max-w-6xl relative mt-24">
       <div className="grid grid-cols-1 gap-6 w-full max-w-7xl min-h-fit">
         <div className="flex flex-col gap-6 justify-around items-start">
-          <div className="max-w-4xl flex flex-col justify-between h-44">
+          <div className="max-w-4xl flex flex-col justify-between h-44 px-4">
             <h2 className="text-gray-800 text-4xl font-bold xl:text-5xl">
               Conecte todas as suas contas em um único lugar
             </h2>
