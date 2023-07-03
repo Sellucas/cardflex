@@ -35,7 +35,7 @@ const CreateCard = () => {
           </article>
           <aside className="flex flex-col justify-between">
             <p className="text-gray-400 font-medium pb-2 text-xs">
-              CONFIADO PELOS MELHORES
+              CONFIÁVEL PELOS MELHORES
             </p>
             <div className="flex flex-row gap-2 md:gap-4">
               <Image width={80} height={1} src={"/nike-logo.svg"} alt="Nike" />
@@ -198,7 +198,7 @@ const CreateCard = () => {
                         name="first-name"
                         id="first-name"
                         autoComplete="given-name"
-                        placeholder="Lucas"
+                        placeholder="Roberta"
                         className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 p-2"
                       />
                     </div>
@@ -217,7 +217,7 @@ const CreateCard = () => {
                         name="last-name"
                         id="last-name"
                         autoComplete="family-name"
-                        placeholder="Sell"
+                        placeholder="Azevedo"
                         className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 p-2"
                       />
                     </div>

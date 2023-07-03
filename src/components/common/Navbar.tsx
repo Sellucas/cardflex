@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="relative w-full flex flex-wrap items-center justify-between px-2 pt-6 pb-12 sm:pb-0 bg-blue-500">
+      <nav className="relative w-full flex flex-wrap items-center justify-between py-6 bg-blue-500">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
