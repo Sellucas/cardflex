@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import { RxDotFilled } from "react-icons/rx";
 
 function Carousel() {
   const slides = [
