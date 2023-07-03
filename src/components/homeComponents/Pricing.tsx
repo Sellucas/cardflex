@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import PrimaryButton from "../common/PrimaryButton";
+import PricingCards from "../common/PricingCards";
 
 const whyToUse = [
   "Pagamentos sem contato",
@@ -26,174 +27,26 @@ const Pricing = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 gap-4 mt-8 px-4 md:grid-cols-2 xl:grid-cols-4">
-            <div className="max-w-sm flex flex-col justify-around border-r-2 border-transparent p-4">
-              <h2 className="text-lg text-gray-800 font-bold text-center mb-4">
-                Iniciante
-              </h2>
-              <div className="flex justify-center items-center text-2xl font-bold text-white w-full h-36 rounded-xl bg-gradient-to-tr from-green-400 to-cyan-800">
-                CardFlex
-              </div>
-              <div>
-                <p className="text-3xl text-gray-800 font-medium text-center my-6">
-                  R$0/m
-                </p>
-                <span className="flex justify-center">
-                  <Link href={"/getcard"}>
-                    <PrimaryButton
-                      text="Obtenha seu cartão"
-                      hasIcon={true}
-                      color="400"
-                    />
-                  </Link>
-                </span>
-              </div>
-              <div className="mt-6">
-                <h3 className="font-medium text-gray-800 mb-4">
-                  Recursos incluídos
-                </h3>
-                <ul className="flex flex-col gap-2">
-                  {whyToUse.map((item) => (
-                    <li className="flex flex-row justify-start items-center text-gray-500">
-                      <span className="mr-2">
-                        <Image
-                          src={"/checked.svg"}
-                          alt="checked"
-                          width={20}
-                          height={1}
-                        />
-                      </span>{" "}
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="max-w-sm flex flex-col justify-around border-r-2 border-transparent bg-blue-100 p-4">
-              <h2 className="text-lg text-gray-800 font-bold text-center mb-4">
-                PREMIUM
-              </h2>
-              <div className="flex justify-center items-center text-2xl font-bold text-white w-full h-36 rounded-xl bg-gradient-to-tr from-blue-400 to-cyan-900">
-                CardFlex
-              </div>
-              <div>
-                <p className="text-3xl text-gray-800 font-medium text-center my-6">
-                  R$24/m
-                </p>
-                <span className="flex justify-center">
-                  <Link href={"/getcard"}>
-                    <PrimaryButton
-                      text="Obtenha seu cartão"
-                      hasIcon={true}
-                      color="900"
-                    />
-                  </Link>
-                </span>
-              </div>
-              <div className="mt-6">
-                <h3 className="font-medium text-gray-800 mb-4">
-                  Recursos incluídos
-                </h3>
-                <ul className="flex flex-col gap-2">
-                  {whyToUse.map((item) => (
-                    <li className="flex flex-row justify-start items-center text-gray-500">
-                      <span className="mr-2">
-                        <Image
-                          src={"/checked.svg"}
-                          alt="checked"
-                          width={20}
-                          height={1}
-                        />
-                      </span>{" "}
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="max-w-sm flex flex-col justify-around border-r-2 border-transparent p-4">
-              <h2 className="text-lg text-gray-800 font-bold text-center mb-4">
-                PREMIUM+
-              </h2>
-              <div className="flex justify-center items-center text-2xl font-bold text-white w-full h-36 rounded-xl bg-gradient-to-tr from-cyan-900 via-cyan-500 to-sky-900">
-                CardFlex
-              </div>
-              <div>
-                <p className="text-3xl text-gray-800 font-medium text-center my-6">
-                  R$48/m
-                </p>
-                <span className="flex justify-center">
-                  <Link href={"/getcard"}>
-                    <PrimaryButton
-                      text="Obtenha seu cartão"
-                      hasIcon={true}
-                      color="400"
-                    />
-                  </Link>
-                </span>
-              </div>
-              <div className="mt-6">
-                <h3 className="font-medium text-gray-800 mb-4">
-                  Recursos incluídos
-                </h3>
-                <ul className="flex flex-col gap-2">
-                  {whyToUse.map((item) => (
-                    <li className="flex flex-row justify-start items-center text-gray-500">
-                      <span className="mr-2">
-                        <Image
-                          src={"/checked.svg"}
-                          alt="checked"
-                          width={20}
-                          height={1}
-                        />
-                      </span>{" "}
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="max-w-sm flex flex-col justify-around border-r-2 border-transparent p-4">
-              <h2 className="text-lg text-gray-800 font-bold text-center mb-4">
-                Black
-              </h2>
-              <div className="flex justify-center items-center text-2xl font-bold text-white w-full h-36 rounded-xl bg-gradient-to-tr from-indigo-900 to-purple-600">
-                CardFlex
-              </div>
-              <div>
-                <p className="text-3xl text-gray-800 font-medium text-center my-6">
-                  R$62/m
-                </p>
-                <span className="flex justify-center">
-                  <Link href={"/getcard"}>
-                    <PrimaryButton
-                      text="Obtenha seu cartão"
-                      hasIcon={true}
-                      color="400"
-                    />
-                  </Link>
-                </span>
-              </div>
-              <div className="mt-6">
-                <h3 className="font-medium text-gray-800 mb-4">
-                  Recursos incluídos
-                </h3>
-                <ul className="flex flex-col gap-2">
-                  {whyToUse.map((item) => (
-                    <li className="flex flex-row justify-start items-center text-gray-500">
-                      <span className="mr-2">
-                        <Image
-                          src={"/checked.svg"}
-                          alt="checked"
-                          width={20}
-                          height={1}
-                        />
-                      </span>{" "}
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+            <PricingCards
+              title="Iniciante"
+              price={0}
+              bgColor="from-green-400 to-cyan-800"
+            />
+            <PricingCards
+              title="Premium"
+              price={24}
+              bgColor="from-blue-400 to-cyan-900"
+            />
+            <PricingCards
+              title="Premium+"
+              price={48}
+              bgColor="from-cyan-900 via-cyan-500 to-sky-900"
+            />
+            <PricingCards
+              title="Black"
+              price={62}
+              bgColor="from-indigo-900 to-purple-600"
+            />
           </div>
         </div>
       </div>
