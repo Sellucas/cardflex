@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a
               className="flex align-middle font-bold leading-relaxed mr-4 py-2 whitespace-nowrap text-white text-xl"
-              href="#pablo"
+              href="/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,13 +57,21 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="/" className="hover:underline ">
+                  <a
+                    href="https://github.com/Sellucas/"
+                    target="_blank"
+                    className="hover:underline "
+                  >
                     Github
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="hover:underline">
-                    LinkeIn
+                  <a
+                    href="https://www.linkedin.com/in/lucas-sell-machado/"
+                    target="_blank"
+                    className="hover:underline"
+                  >
+                    LinkedIn
                   </a>
                 </li>
               </ul>

@@ -14,10 +14,10 @@ const Documentation = () => {
             <span className="mr-2">
               <Image src={"/support.svg"} alt="checked" width={60} height={1} />
             </span>
-            Sending money
+            Enviar dinheiro
           </h3>
           <h1 className="text-gray-800 text-4xl font-medium xl:text-5xl">
-            How do I send money to a bank account or card?
+            Como faço para enviar dinheiro para uma conta bancária ou cartão?
           </h1>
           <p className="text-gray-500">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -35,30 +35,32 @@ const Documentation = () => {
             imperdiet.
           </p>
           <h2 className="font-bold text-gray-800">
-            Sending money to bank account
+            Enviando dinheiro para conta bancária
           </h2>
           <p className="text-gray-500">
-            To transfer any of over 30 supported fiat currencies to a bank
-            account, on the main accounts screen tap transfer (button with two
-            arrows at the bottom of the screen) → New → Add a bank recipient.
-            You'll be asked to add the bank transfer details for either an
-            Individual, or a Business if you're paying a company.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            minima similique tempora aliquid, est accusamus ad fuga saepe at
+            labore! Accusantium sequi quidem asperiores illum ipsam veniam
+            obcaecati. Ullam, modi!
           </p>
-          <h2 className="font-bold text-gray-800">Sending money to card</h2>
+          <h2 className="font-bold text-gray-800">
+            Enviando dinheiro para um cartão
+          </h2>
           <p className="text-gray-500">
-            Enter the details of the card you want to send money to. If you have
-            the card at hand, you can take a picture of the front of the card or
-            tap the back of your phone against the card to capture the card
-            number. Hit 'Save securely' which saves the card number details so
-            you won't have to re-enter it next time.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora,
+            sapiente sunt. Voluptas ex quibusdam provident dolorum rem rerum
+            repudiandae cupiditate illo numquam! Excepturi aperiam, eaque alias
+            perferendis voluptate eum aliquam! Accusantium sequi quidem
+            asperiores illum ipsam veniam obcaecati. Ullam, modi!
           </p>
           <p className="text-gray-500">
-            Enter the amount you wish to send and below the currency, you can
-            choose from which currency balance the amount will be deducted.
-            There is also an option to add a note to yourself, but it is not
-            required and won't be sent to the beneficiary.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            laudantium esse voluptatibus, minima incidunt quis voluptatem,
+            expedita, necessitatibus laboriosam nesciunt temporibus? Esse
+            commodi minima voluptatem necessitatibus quibusdam amet ipsum
+            voluptatum?
           </p>
-          <h2 className="font-bold text-gray-800">Conclusion</h2>
+          <h2 className="font-bold text-gray-800">Conclusão</h2>
           <p className="text-gray-500">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua, quis

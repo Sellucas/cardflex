@@ -433,7 +433,7 @@ const CreateCard = () => {
                       Notificações celular
                     </legend>
                     <p className="mt-1 text-sm leading-6 text-gray-600">
-                      These are delivered via SMS to your mobile phone.
+                      Estes são entregues via SMS para o seu celular.
                     </p>
                     <div className="mt-6 space-y-6">
                       <div className="flex items-center gap-x-3">

@@ -1,16 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import PrimaryButton from "../common/PrimaryButton";
 import PricingCards from "../common/PricingCards";
-
-const whyToUse = [
-  "Pagamentos sem contato",
-  "Pagamentos móveis",
-  "Cartão extra (opcional)",
-  "Pagamentos gratuitos em todo o mundo",
-  "Retiradas gratuitas em caixas eletrônicos",
-];
 
 const Pricing = () => {
   return (

@@ -29,7 +29,8 @@ const SideMenu = () => {
           <path d="M4 12l16 0" />
           <path d="M4 18l16 0" />
         </svg>
-        Sending money {">"} How do I send money to a bank account or card?
+        Enviando dinheiro {">"} Como faço para enviar dinheiro para uma conta
+        bancária ou cartão?
       </button>
       <div
         className={
@@ -38,7 +39,7 @@ const SideMenu = () => {
       >
         <ul className="font-bold text-gray-800 flex flex-col gap-2 p-4 lg:p-12 md:min-w-[300px] text-sm">
           <h2 className="font-bold text-gray-800 text-xl mb-4">
-            Popular topics
+            Tópicos populares
           </h2>
           <li className="flex flex-row">
             <span className="mr-1">
@@ -49,7 +50,7 @@ const SideMenu = () => {
                 height={20}
               />
             </span>{" "}
-            <a href="">Welcome</a>
+            <a href="">Bem-vindo</a>
           </li>
           <li>
             <li className="flex flex-row">
@@ -61,26 +62,34 @@ const SideMenu = () => {
                   height={20}
                 />
               </span>{" "}
-              <a href="">Sending money</a>
+              <a href="">Enviando dinheiro</a>
             </li>
             <ul className="ml-8">
               <li className="pl-2 text-gray-500 font-normal flex flex-col gap-2">
                 <li>
                   <a href="" className="text-blue-500 font-medium">
-                    How do I send money to a bank account or card?
+                    Como faço para enviar dinheiro para uma conta bancária ou
+                    cartão?
                   </a>
                 </li>
                 <li>
-                  <a href="">What recipient account details do I need?</a>
+                  <a href="">
+                    Quais detalhes da conta do destinatário eu preciso?
+                  </a>
                 </li>
                 <li>
-                  <a href="">How do I send money to a bank account or card?</a>
+                  <a href="">
+                    Como faço para enviar dinheiro para uma conta bancária ou
+                    cartão?
+                  </a>
                 </li>
                 <li>
-                  <a href="">How do I download my transfer confirmation?</a>
+                  <a href="">
+                    Como faço o download da minha confirmação de transferência?
+                  </a>
                 </li>
                 <li>
-                  <a href="">How to send money to a specific currency</a>
+                  <a href="">Como enviar dinheiro para uma moeda específica</a>
                 </li>
               </li>
             </ul>
@@ -94,7 +103,7 @@ const SideMenu = () => {
                 height={20}
               />
             </span>{" "}
-            <a href="">Account manager</a>
+            <a href="">Gerenciamento de contas</a>
           </li>
           <li className="flex flex-row">
             <span className="mr-1">
@@ -105,7 +114,7 @@ const SideMenu = () => {
                 height={20}
               />
             </span>{" "}
-            <a href="">Card</a>
+            <a href="">Cartão</a>
           </li>
           <li className="flex flex-row">
             <span className="mr-1">
@@ -116,7 +125,7 @@ const SideMenu = () => {
                 height={20}
               />
             </span>{" "}
-            <a href="">Credit product</a>
+            <a href="">Oferta de crédito</a>
           </li>
           <li className="flex flex-row">
             <span className="mr-1">
@@ -127,7 +136,7 @@ const SideMenu = () => {
                 height={20}
               />
             </span>{" "}
-            <a href="">App feature</a>
+            <a href="">Funcionalidade do app</a>
           </li>
           <li className="flex flex-row">
             <span className="mr-1">
@@ -138,7 +147,7 @@ const SideMenu = () => {
                 height={20}
               />
             </span>{" "}
-            <a href="">Insurance</a>
+            <a href="">Seguridade</a>
           </li>
           <li className="flex flex-row">
             <span className="mr-1">
@@ -149,7 +158,7 @@ const SideMenu = () => {
                 height={20}
               />
             </span>{" "}
-            <a href="">Weath and trading</a>
+            <a href="">Finanças e negociação</a>
           </li>
         </ul>
       </div>
