@@ -4,7 +4,7 @@ import React from "react";
 
 const physicalStores = [
   "Crie cartões que funcionem exatamente como você os configurou",
-  "Focus critical resources on your core business",
+  "Concentre recursos críticos em seu core business",
   "Tome decisões em tempo real sobre cobranças e gastos.",
 ];
 
