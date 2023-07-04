@@ -6,7 +6,8 @@ import Link from "next/link";
 interface PricingCardProps {
   title: string;
   price: number;
-  bgColor: string;
+  cardColor: string;
+  bgColor?: string;
 }
 
 const whyToUse = [
@@ -17,15 +18,15 @@ const whyToUse = [
   "Retiradas gratuitas em caixas eletrônicos",
 ];
 
-const PricingCards = ({ title, price, bgColor }: PricingCardProps) => {
+const PricingCards = ({ title, price, cardColor, bgColor }: PricingCardProps) => {
   return (
     <>
-      <div className="max-w-sm flex flex-col justify-around border-r-2 border-transparent p-4">
+      <div className={`max-w-sm flex flex-col justify-around border-r-2 border-transparent p-4 ${bgColor}`}>
         <h2 className="text-lg text-gray-800 font-bold text-center mb-4">
           {title}
         </h2>
         <div
-          className={`flex justify-center items-center text-2xl font-bold text-white w-full h-36 rounded-xl bg-gradient-to-tr ${bgColor}`}
+          className={`flex justify-center items-center text-2xl font-bold text-white w-full h-36 rounded-xl bg-gradient-to-tr ${cardColor}`}
         >
           CardFlex
         </div>

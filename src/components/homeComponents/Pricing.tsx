@@ -23,22 +23,23 @@ const Pricing = () => {
               <PricingCards
                 title="Iniciante"
                 price={0}
-                bgColor="from-green-400 to-cyan-800"
+                cardColor="from-green-400 to-cyan-800"
               />
               <PricingCards
                 title="Premium"
                 price={24}
-                bgColor="from-blue-400 to-cyan-900"
+                cardColor="from-blue-400 to-cyan-900"
+                bgColor="bg-blue-100"
               />
               <PricingCards
                 title="Premium+"
                 price={48}
-                bgColor="from-cyan-900 via-cyan-500 to-sky-900"
+                cardColor="from-cyan-900 via-cyan-500 to-sky-900"
               />
               <PricingCards
                 title="Black"
                 price={62}
-                bgColor="from-indigo-900 to-purple-600"
+                cardColor="from-indigo-900 to-purple-600"
               />
             </div>
           </Slide>
