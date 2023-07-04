@@ -44,6 +44,7 @@ const Navbar = () => {
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
+              name="menu-toggle"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
               <svg
