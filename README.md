@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CardFlex
+
+![cardFlex](https://github.com/Sellucas/portfolio-v2/assets/75432770/a736e412-656c-48c2-8fb6-6be9a7185b27)
+
+## 💾 Sobre
+
+**CardFlex** solução perfeita para seus cartões físicos e virtuais personalizados! Empresa dedicada a oferecer opções de cartões únicos e exclusivos que atendam às suas necessidades pessoais e empresariais. Combinando inovação, design atraente e qualidade excepcional.
+
+O deployment foi feita com o Vercel e está disponível [aqui](https://cardflex.vercel.app)
+
+## 🚀 Tecnologias
+
+**CardFlex** foi desenvolvido utilizando as seguintes tecnologias:
+
+- Next.js
+- Typescript
+- Tailwind
+- React-awesome-reveal
+- React-scroll
 
 ## Getting Started
 
