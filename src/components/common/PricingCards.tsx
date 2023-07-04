@@ -18,10 +18,17 @@ const whyToUse = [
   "Retiradas gratuitas em caixas eletrônicos",
 ];
 
-const PricingCards = ({ title, price, cardColor, bgColor }: PricingCardProps) => {
+const PricingCards = ({
+  title,
+  price,
+  cardColor,
+  bgColor,
+}: PricingCardProps) => {
   return (
     <>
-      <div className={`max-w-sm flex flex-col justify-around border-r-2 border-transparent p-4 ${bgColor}`}>
+      <div
+        className={`max-w-sm flex flex-col justify-around border-r-2 border-transparent p-4 ${bgColor}`}
+      >
         <h2 className="text-lg text-gray-800 font-bold text-center mb-4">
           {title}
         </h2>
@@ -48,7 +55,10 @@ const PricingCards = ({ title, price, cardColor, bgColor }: PricingCardProps) =>
           <h3 className="font-medium text-gray-800 mb-4">Recursos incluídos</h3>
           <ul className="flex flex-col gap-2">
             {whyToUse.map((item, index) => (
-              <li key={index} className="flex flex-row justify-start items-center text-gray-500">
+              <li
+                key={index}
+                className="flex flex-row justify-start items-center text-gray-500"
+              >
                 <span className="mr-2">
                   <Image
                     src={"/checked.svg"}

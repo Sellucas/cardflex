@@ -7,7 +7,7 @@ const Pricing = () => {
   return (
     <section className="flex flex-col justify-center items-center w-full max-w-6xl relative mt-24">
       <div className="grid grid-cols-1 gap-6 w-full max-w-7xl min-h-fit">
-        <div className="flex flex-col gap-6 justify-around items-start">
+        <div className="flex flex-col gap-6 justify-around">
           <Slide cascade damping={0.1} direction="up" triggerOnce>
             <div className="max-w-4xl flex flex-col justify-between h-44 px-4">
               <h2 className="text-gray-800 text-4xl font-bold xl:text-5xl">
@@ -19,7 +19,7 @@ const Pricing = () => {
                 nesciunt.
               </p>
             </div>
-            <div className="grid grid-cols-1 gap-4 mt-8 px-4 md:grid-cols-2 xl:grid-cols-4">
+            <div className="grid grid-cols-1 place-items-center w-full gap-4 mt-8 px-4 md:grid-cols-2 xl:grid-cols-4">
               <PricingCards
                 title="Iniciante"
                 price={0}
