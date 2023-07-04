@@ -46,8 +46,8 @@ const PricingCards = ({ title, price, bgColor }: PricingCardProps) => {
         <div className="mt-6">
           <h3 className="font-medium text-gray-800 mb-4">Recursos incluídos</h3>
           <ul className="flex flex-col gap-2">
-            {whyToUse.map((item) => (
-              <li className="flex flex-row justify-start items-center text-gray-500">
+            {whyToUse.map((item, index) => (
+              <li key={index} className="flex flex-row justify-start items-center text-gray-500">
                 <span className="mr-2">
                   <Image
                     src={"/checked.svg"}

@@ -48,6 +48,7 @@ const HeroSection = () => {
             src="/hero.svg"
             alt="CardFlex"
             className="xl:scale-150"
+            priority
           />
         </div>
       </Slide>

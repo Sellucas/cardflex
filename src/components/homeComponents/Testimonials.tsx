@@ -32,8 +32,8 @@ const Testimonials = () => {
             <article className="flex flex-col gap-4">
               <h3 className="font-bold text-gray-800">Lojas físicas</h3>
               <ul className="flex flex-col gap-2">
-                {whyToUse.map((item) => (
-                  <li className="flex flex-row justify-start items-center text-gray-500">
+                {whyToUse.map((item, index) => (
+                  <li key={index} className="flex flex-row justify-start items-center text-gray-500">
                     <span className="mr-2">
                       <Image
                         src={"/checked.svg"}

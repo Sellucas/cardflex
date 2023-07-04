@@ -52,48 +52,38 @@ const SideMenu = () => {
             </span>{" "}
             <a href="">Bem-vindo</a>
           </li>
-          <li>
-            <li className="flex flex-row">
-              <span className="mr-1">
-                <Image
-                  src={"/down-arrow-doc.svg"}
-                  alt="checked"
-                  width={20}
-                  height={20}
-                />
-              </span>{" "}
-              <a href="">Enviando dinheiro</a>
-            </li>
-            <ul className="ml-8">
-              <li className="pl-2 text-gray-500 font-normal flex flex-col gap-2">
-                <li>
-                  <a href="" className="text-blue-500 font-medium">
-                    Como faço para enviar dinheiro para uma conta bancária ou
-                    cartão?
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    Quais detalhes da conta do destinatário eu preciso?
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    Como faço para enviar dinheiro para uma conta bancária ou
-                    cartão?
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    Como faço o download da minha confirmação de transferência?
-                  </a>
-                </li>
-                <li>
-                  <a href="">Como enviar dinheiro para uma moeda específica</a>
-                </li>
-              </li>
-            </ul>
+          <li className="flex flex-row">
+            <span className="mr-1">
+              <Image
+                src={"/down-arrow-doc.svg"}
+                alt="checked"
+                width={20}
+                height={20}
+              />
+            </span>{" "}
+            <a href="">Enviando dinheiro</a>
           </li>
+
+          <ul className="ml-8">
+            <li className="pl-2 text-gray-500 font-normal">
+              <a href="" className="text-blue-500 font-medium">
+                Como faço para enviar dinheiro para uma conta bancária ou
+                cartão?
+              </a>
+            </li>
+            <li className="pl-2 text-gray-500 font-normal">
+              <a href="">Quais detalhes da conta do destinatário eu preciso?</a>
+            </li>
+            <li className="pl-2 text-gray-500 font-normal">
+              <a href="">
+                Como faço o download da minha confirmação de transferência?
+              </a>
+            </li>
+            <li className="pl-2 text-gray-500 font-normal">
+              <a href="">Como enviar dinheiro para uma moeda específica</a>
+            </li>
+          </ul>
+
           <li className="flex flex-row">
             <span className="mr-1">
               <Image

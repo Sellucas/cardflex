@@ -44,8 +44,11 @@ const CashbackRewards = () => {
             <article className="flex flex-col gap-4">
               <h3 className="font-bold text-gray-800">Lojas físicas</h3>
               <ul className="flex flex-col gap-2">
-                {physicalStores.map((item) => (
-                  <li className="flex flex-row justify-start items-center text-gray-500">
+                {physicalStores.map((item, index) => (
+                  <li
+                    key={index}
+                    className="flex flex-row justify-start items-center text-gray-500"
+                  >
                     <span className="mr-2">
                       <Image
                         src={"/checked.svg"}
@@ -62,8 +65,11 @@ const CashbackRewards = () => {
             <article className="flex flex-col gap-4">
               <h3 className="font-bold text-gray-800">Lojas online</h3>
               <ul className="flex flex-col gap-2">
-                {onlineStores.map((item) => (
-                  <li className="flex flex-row justify-start items-center text-gray-500">
+                {onlineStores.map((item, index) => (
+                  <li
+                    key={index}
+                    className="flex flex-row justify-start items-center text-gray-500"
+                  >
                     <span className="mr-2">
                       <Image
                         src={"/checked.svg"}
