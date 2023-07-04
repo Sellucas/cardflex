@@ -31,9 +31,9 @@ const CardSolutions = () => {
             <aside className="flex flex-row justify-between">
               <Image width={35} height={35} src={"/avatar.svg"} alt="avatar" />
               <p className="text-gray-300 font-light pl-2">
-                "Nós conhecemos muito bem o mercado de cartões e este produto
-                oferece a velocidade, modelo de conta flexível e abordagem
-                API-first que mais ninguém pode oferecer."
+                &quot;Nós conhecemos muito bem o mercado de cartões e este
+                produto oferece a velocidade, modelo de conta flexível e
+                abordagem API-first que mais ninguém pode oferecer.&quot;
               </p>
             </aside>
           </div>

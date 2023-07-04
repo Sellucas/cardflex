@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const physicalStores = [
@@ -18,8 +17,8 @@ const CreateCard = () => {
           </h2>
           <article className="flex flex-col gap-4 mb-8">
             <ul className="flex flex-col gap-2">
-              {physicalStores.map((item) => (
-                <li className="flex flex-row justify-start items-center text-gray-500">
+              {physicalStores.map((item, index) => (
+                <li key={index} className="flex flex-row justify-start items-center text-gray-500">
                   <span className="mr-2">
                     <Image
                       src={"/checked.svg"}
