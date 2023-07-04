@@ -5,7 +5,7 @@ import { Slide } from "react-awesome-reveal";
 
 const Pricing = () => {
   return (
-    <section className="flex flex-col justify-center items-center w-full max-w-6xl relative mt-24">
+    <section className="flex flex-col justify-center items-center w-full max-w-6xl relative mt-24" id="planos">
       <div className="grid grid-cols-1 gap-6 w-full max-w-7xl min-h-fit">
         <div className="flex flex-col gap-6 justify-around">
           <Slide cascade damping={0.1} direction="up" triggerOnce>

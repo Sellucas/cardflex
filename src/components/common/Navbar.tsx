@@ -1,5 +1,14 @@
 "use client";
 import React from "react";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -10,7 +19,7 @@ const Navbar = () => {
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
-              className="flex align-middle text-sm font-bold leading-relaxed mr-4 py-2 whitespace-nowrap text-white"
+              className="flex align-middle font-bold leading-relaxed mr-4 py-2 whitespace-nowrap text-white text-xl"
               href="/"
             >
               <svg
@@ -65,31 +74,38 @@ const Navbar = () => {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
+                <Link
+                  spy={true}
+                  smooth={true}
+                  offset={100}
+                  duration={500}
+                  to="about"
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                 >
-                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Sobre</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
+                <Link
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  to="planos"
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                 >
-                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">Planos</span>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="/"
+                <Link
+                  spy={true}
+                  smooth={true}
+                  duration={1500}
+                  to="faq"
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 cursor-pointer"
                 >
-                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i>
                   <span className="ml-2">FAQ</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -5,7 +5,10 @@ import { Slide } from "react-awesome-reveal";
 
 const AboutCard = () => {
   return (
-    <section className="flex flex-col justify-center items-center w-full relative">
+    <section
+      className="flex flex-col justify-center items-center w-full relative"
+      id="about"
+    >
       <div className="aboslute top-0 left-0 w-full overflow-hidden leading-none">
         <svg
           data-name="Layer 1"

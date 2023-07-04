@@ -4,7 +4,7 @@ import { Slide } from "react-awesome-reveal";
 
 const Faq = () => {
   return (
-    <section>
+    <section id="faq">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <h2 className="text-gray-800 text-4xl font-medium xl:text-5xl mb-8 mt-24">
           FAQs
