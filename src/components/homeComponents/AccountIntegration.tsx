@@ -7,7 +7,7 @@ const AccountIntegration = () => {
   return (
     <section className="flex flex-col justify-center items-center w-full relative mt-24">
       <div className="grid grid-cols-1 gap-6 bg-gradient-to-r from-blue-900 to-blue-500 w-full max-w-7xl min-h-fit rounded-tr-3xl p-12 md:p-24">
-        <div className="flex flex-col gap-6 justify-around items-start">
+        <div className="flex flex-col gap-6 justify-around">
           <Slide cascade damping={0.1} direction="up" triggerOnce>
             <div className="max-w-4xl flex flex-col justify-between h-44">
               <h2 className="text-white text-4xl font-bold xl:text-5xl">
