@@ -18,7 +18,10 @@ const CreateCard = () => {
           <article className="flex flex-col gap-4 mb-8">
             <ul className="flex flex-col gap-2">
               {physicalStores.map((item, index) => (
-                <li key={index} className="flex flex-row justify-start items-center text-gray-500">
+                <li
+                  key={index}
+                  className="flex flex-row justify-start items-center text-gray-500"
+                >
                   <span className="mr-2">
                     <Image
                       src={"/checked.svg"}
@@ -55,7 +58,7 @@ const CreateCard = () => {
           </aside>
         </div>
         <div>
-          <form className="p-12 rounded-xl shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
+          <form className="p-6 md:p-12 rounded-xl shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)]">
             <div className="space-y-12">
               <div className="border-b border-gray-900/10 pb-12">
                 <h2 className="text-base font-semibold leading-7 text-gray-900">
